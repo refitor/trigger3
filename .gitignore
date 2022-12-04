@@ -17,6 +17,6 @@ go.sum
 
 .env
 .idea
-web/
 vendor/
+trigger3/
 node_modules/
