@@ -1,6 +1,7 @@
 # Trigger3
+A tool for contract query and trigger calls, supporting any EVM compatible contract
 
-## trigger3 test
+## trigger3 script format
 ```
 test.json format for call:
 {
@@ -24,22 +25,3 @@ test.json format for send:
     }
 }
 ```
-
-## Project setup
-```
-yarn
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-go build -o ./trigger3 -i
-```
-
-### Usage
-./trigger3 --help
